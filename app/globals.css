@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Nonaktifkan pointer events pada semua slide */
+.swiper-slide {
+  pointer-events: none;
+}
+
+/* Aktifkan pointer events hanya pada slide aktif */
+.swiper-slide-active {
+  pointer-events: auto;
+}
