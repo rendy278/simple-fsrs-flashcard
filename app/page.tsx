@@ -3,7 +3,7 @@ import FlashCardFilter from "@/components/FlashCardFilter";
 
 const page = () => {
   return (
-    <div className="px-4 flex flex-col items-center gap-4  py-6">
+    <div className="px-4 flex overflow-x-hidden flex-col items-center gap-4  py-6">
       <FlashCardFilter />
 
       <FlashCardCarousel />
