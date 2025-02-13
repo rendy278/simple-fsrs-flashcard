@@ -79,7 +79,7 @@ const FlashCard = ({ card }: { card: DeckType }) => {
           </p>
         </div>
         {!isEditing ? (
-          <span>{card.word}</span>
+          <span className="text-4xl">{card.word}</span>
         ) : (
           <input
             type="text"
@@ -141,7 +141,7 @@ const FlashCard = ({ card }: { card: DeckType }) => {
             <p className="text-xl font-semibold">{card.meaning}</p>
           ) : (
             <div className="flex items-center justify-between gap-20">
-              <p className="text-xl font-semibold">{card.word}</p>
+              <p className="text-4xl font-semibold">{card.word}</p>
               <div>
                 <p className="text-sm">Onyomi: {card.onyomi || "-"}</p>
                 <p className="text-sm">Kunyomi: {card.kunyomi || "-"}</p>
